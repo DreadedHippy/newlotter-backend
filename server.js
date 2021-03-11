@@ -1,5 +1,5 @@
 const http = require('http');
-const app = require('../newlotter/src/app/backend/app')
+const app = require('./backend/app')
 const debug = require('debug')('node-angular')
 const server = http.createServer(app);
 const mongoose = require('mongoose')
